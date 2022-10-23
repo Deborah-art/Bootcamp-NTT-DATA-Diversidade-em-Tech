@@ -1,0 +1,24 @@
+# Desafio 1 - Git e Github
+# Bootcamp NTT DATA Diversidade em Tech
+
+## Como criar um repositório e incluir arquivos
+
+### Requisitos:
+### A versão mais recente do Git instalada e uma conta no Github (clicar no botão verde "New" para criar um novo repositório).
+
+### Criar uma pasta para guardar os arquivos: 
+### $ mkdir nome_pasta
+### Dentro dela iniciar o git:
+### $ git init
+
+### Caso necessário configurar email e nome com:
+### $ git config --global user.email "seuemail@email.com"
+### $ git config --global user.name Nome
+### Para adicionar arquivos:
+### $ git add *
+### $ git commit -m "Primeira mensagem"
+### Conexão entre repositório local e remoto:
+### $ git remote add otigin git@github.com:Usuario/Repositorio.git
+### $ git branch -M main
+### $ git push -u origin main
+### O comando *push* é usado para incluir arquivos do repositório local para o repositório remoto.
